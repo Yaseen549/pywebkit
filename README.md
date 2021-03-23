@@ -1,4 +1,4 @@
-# PyWebKit - The simplest Python caller out there!
+# PyWebKit - The simplest Python Web Kit out there!
 
 With PyWebKit, you can modernize websites with python with just one line of code. PyWebKit is super easy to use and handles everything for you. Just specify what website you want to call and what media you want to receive back, and the rest is done for you.
 
@@ -34,7 +34,15 @@ And you are ready to go! At this point, I want to clearly distinct what is css c
 Yep, thats all. Just specify that you need to implement import functions
 
 
-#### Dowload file types (*css*)
+#### Dowload file type (*css*)
+
+## Try out the below code
+
+```Python
+from pywebkit import css_class_maker
+
+css_class_maker.css_class_generator()
+```
 
 License
 ----
@@ -45,6 +53,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-```html
-Link: <a>https://yaseen.netlify.com</a>
+```link
+Link: https://yaseen.netlify.com
 ```

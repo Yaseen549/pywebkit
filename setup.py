@@ -1,16 +1,24 @@
 from distutils.core import setup
+
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+
 setup(
   name = 'pywebkit',         # How you named your package folder (MyLib)
   packages = ['pywebkit'],   # Chose the same as "name"
-  version = '0.1.1',      # Start with a small number and increase it with every change you make
+  version = '0.1.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Startup Library still in progress',   # Give a short description about your library
-  long_description="Am a long description", #try
+  long_description=long_description, #try
   long_description_content_type="text/markdown",        # Long description
   author = 'MOHAMED YASEEN SHERIFF S',                   # Type in your name
   author_email = 'fantasticyaseenshariff@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Yaseen549/pywebkit',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Yaseen549/pywebkit/archive/refs/tags/v0.1.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Yaseen549/pywebkit/archive/refs/tags/v0.1.2.tar.gz',    # I explain this later on
   keywords = ['PY', 'WEB', 'KIT', 'PYWEBKIT'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',

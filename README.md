@@ -8,6 +8,7 @@ The PyWebKit Python caller was written with fast use in mind. It provides the fo
   - call methods - Every function has its own property.
   - The most common call activities (CSS generator) are already implemented
   - Receive special file types like .css
+  - newlines integrated, now you can print newlines just by calling "newline1()" and upto 6 lines
 
 
 ## Usage
@@ -28,7 +29,7 @@ PyWebKit was programmed with ease-of-use in mind. First, import "css class maker
 ```Python
 from pywebkit import css_class_maker
 
-			# OR
+		# OR
 
 from pywebkit import *
 ```
@@ -47,6 +48,15 @@ Yep, thats all. Just specify that you need to implement import functions
 from pywebkit import css_class_maker
 
 css_class_generator()
+
+		# or
+
+from pywebkit import *
+
+css_class_generator()
+
+newline2()
+
 
 ```
 

@@ -1,3 +1,5 @@
+# Css Class Generator in python
+
 def css_class_generator():
     filename = input("File Name: ")
     total_num_of_classes = int(input("How many CSS class you need?"))
@@ -6,13 +8,41 @@ def css_class_generator():
     for i in range(int(total_num_of_classes)):
         print("Class ", int(i+1))
         total_num_of_pv = int(input("How many properties?"))
-        myselector = input(str("Selector: "))
+        css_selector = input("Selector: ")
+        line1 = "." + css_selector +"{\n"
+        myfile.writelines(line1)
+
         for j in range(int(total_num_of_pv)):
-            myproperty = input(str("Property: "))
-            myvalue = input(str("Value: "))
-            line1 = "." + myselector +"{\n"
-            line2 = "    " + myproperty + ": " + myvalue + ";\n"
-            line3 = "}"
-            l = [line1, line2, line3]
-            myfile.writelines(l)
+            css_property = input("Property: ")
+            css_value = input("Value: ")            
+            line2 = "    " + css_property + ": " + css_value + ";\n"
+            myfile.writelines(line2)
+        
+        line3 = "}\n\n"
+        myfile.writelines(line3)
     myfile.close()
+
+# New Lines
+
+def newline1():
+    print("\n")
+
+
+def newline2():
+    print("\n\n")
+
+
+def newline3():
+    print("\n\n\n")
+
+
+def newline4():
+    print("\n\n\n\n")
+
+
+def newline5():
+    print("\n\n\n\n\n")
+
+
+def newline6():
+    print("\n\n\n\n\n\n")

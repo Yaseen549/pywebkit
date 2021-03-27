@@ -15,7 +15,7 @@ readme = (here / "README.md").read_text()
 setup(
   name = 'pywebkit',         # How you named your package folder (MyLib)
   packages = ['pywebkit'],   # Chose the same as "name"
-  version = '0.1.4',      # Start with a small number and increase it with every change you make
+  version = '0.1.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Library for Web Development with ease',   # Give a short description about your library
   long_description=readme,                              #try
@@ -23,7 +23,7 @@ setup(
   author = 'MOHAMED YASEEN SHERIFF S',                   # Type in your name
   author_email = 'fantasticyaseenshariff@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Yaseen549/pywebkit',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Yaseen549/pywebkit/archive/refs/tags/v0.1.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Yaseen549/pywebkit/archive/refs/tags/v0.1.5.tar.gz',    # I explain this later on
   keywords = ['PY', 'WEB', 'KIT', 'PYWEBKIT'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',

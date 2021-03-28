@@ -15,7 +15,7 @@ def css_class_generator():
         for j in range(int(total_num_of_pv)):
             css_property = input("Property: ")
             css_value = input("Value: ")            
-            line2 = "    " + css_property + ": " + css_value + ";\n"
+            line2 = " "*4 + css_property + ": " + css_value + ";\n"
             myfile.writelines(line2)
         
         line3 = "}\n\n"

@@ -61,18 +61,18 @@ css_class_generator()
 from pywebkit.mathlib import *
 
 
-add(1,5,9) 				# Addition of n numbers
-multiply(5,9,8) 		# Multiplication of each number num1 * num2 * num3....
+print(add(1,5,9)) 	# Addition of n numbers
+print(multiply(5,9,8)) 	# Multiplication of each number num1 * num2 * num3....
 
-newline2() 				# two newlines
+newline2() 			# two newlines
 
-sqrt(15) 				# square root of 15
-cube(3) 				# cube root of 3
+print(sqrt(15)) 		# square root of 15
+print(cube(3)) 			# cube root of 3
 
 newline2() 
 
-powerof(5,2) 			# 5 power of 2
-div2num(50, 2)  		# 50 is a dividend and 2 is divisor
+print(powerof(5,2)) 	# 5 power of 2
+print(div2num(50, 2))  	# 50 is a dividend and 2 is divisor
 
 ```
 

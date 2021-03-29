@@ -6,7 +6,7 @@ def css_class_generator():
     myfile = open( filename + ".css", "w+")
 
     for i in range(int(total_num_of_classes)):
-        print("Class ", int(i+1))
+        print(f"Class {i+1}:")
         total_num_of_pv = int(input("How many properties?: "))
         css_selector = input("Selector: ")
         line1 = "." + css_selector +"{\n"

@@ -21,17 +21,25 @@ def multiply(*nums):
     return number
 
 
-def sqrt(num):
-	return num**2
+def square(num):
+    return num ** 2
 
 
 def cube(num):
-	return num**3
+    return num ** 3
 
 
 def powerof(num1, num2):
-	return num1**num2
+    return num1**num2
 
 
 def div2num(dividend, divisor):
-	return dividend/divisor
+    return dividend/divisor
+
+
+def sqrt(num):
+    return num ** 0.5
+
+
+def curt(num):
+    return num ** (1/3)

@@ -30,11 +30,11 @@ def cube(num):
 
 
 def powerof(num1, num2):
-    return num1**num2
+    return num1 ** num2
 
 
-def div2num(dividend, divisor):
-    return dividend/divisor
+def div2num(num1, num2):
+    return num1 / num2
 
 
 def sqrt(num):
